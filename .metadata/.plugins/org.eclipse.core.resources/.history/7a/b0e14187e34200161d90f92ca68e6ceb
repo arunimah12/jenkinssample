@@ -1,0 +1,14 @@
+package sample;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Gmail {
+
+	public static void main(String[] args) {
+		WebDriver obj= new FirefoxDriver();
+		obj.get("http://www.seleniumhq.org/download/");
+
+	}
+
+}
